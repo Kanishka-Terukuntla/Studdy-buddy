@@ -5,6 +5,8 @@ Study Buddy is a peer-to-peer collaborative learning platform designed to enhanc
 Unlike traditional platforms, Study Buddy focuses on **human interaction instead of AI automation**, enabling students to actively engage, discuss, and learn together.
 
 ---
+🌐 live demo
+deployed link -https://studdy-buddy-beryl.vercel.app/auth
 
 # 🚀 Problem Statement
 
@@ -74,7 +76,7 @@ Study Buddy provides:
 
 ---
 
-## 🧠 Confusion Tagging System (Key Feature)
+## 🧠 Confusion Tagging System 
 
 Users can:
 - Select specific text inside notes
