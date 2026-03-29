@@ -1,10 +1,13 @@
 # 📚 Study Buddy
 
-Study Buddy is a peer-to-peer collaborative learning platform designed to enhance student interaction, structured note-taking, and group-based learning.  
+– Peer-to-Peer Collaborative Learning Platform
 
-Unlike traditional platforms, Study Buddy focuses on **human interaction instead of AI automation**, enabling students to actively engage, discuss, and learn together.
+A real-time platform that transforms passive studying into active, **peer-driven learning** through structured discussions, shared notes, and competitive collaboration — **without relying on AI.**
 
----
+💡 Core Idea
+
+Enable students to learn better by interacting, discussing, and solving problems together instead of studying in isolation.
+
 🌐 live demo
 deployed link -https://studdy-buddy-beryl.vercel.app/auth
 
