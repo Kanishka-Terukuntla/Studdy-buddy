@@ -1,44 +1,255 @@
-# Study Buddy 📚
+# 📚 Study Buddy
 
-A peer-to-peer collaborative learning platform.
+Study Buddy is a peer-to-peer collaborative learning platform designed to enhance student interaction, structured note-taking, and group-based learning.  
 
-## Quick Start
+Unlike traditional platforms, Study Buddy focuses on **human interaction instead of AI automation**, enabling students to actively engage, discuss, and learn together.
 
-### Backend
-```bash
-cd server
-npm install
-# Edit .env with your MongoDB URI
-npm start
-```
+---
 
-### Frontend
-```bash
-cd client
-npm install
-npm run dev
-```
+# 🚀 Problem Statement
 
-## Deployment
+Students often:
+- Take unstructured notes during lectures
+- Struggle to revise effectively
+- Lack proper peer collaboration systems
+- Hesitate to engage in group learning
 
-### Backend → Render
-1. Push `server/` to GitHub
-2. Create a new Web Service on Render
-3. Set env vars: `MONGO_URI`, `JWT_SECRET`
+This leads to:
+- Poor knowledge retention
+- Increased academic stress
+- Inefficient revision
 
-### Frontend → Vercel
-1. Push `client/` to GitHub
-2. Import to Vercel
-3. Set env var: `VITE_API_URL=https://your-render-url.onrender.com`
+---
 
-## Features
-- Auth (login/register)
-- My Notes with confusion tagging (❓⚠️💡)
-- Groups with chat, notes, tasks
-- Partner Match with DM chat
-- Live Peer Tests with timer
-- Battle of Groups with leaderboard
-- Post-battle discussion with upvotes
-- Doubt system with notifications
-- Profile with friends & progress
-- Dark mode toggle
+# 💡 Solution
+
+Study Buddy provides:
+- Structured note interaction
+- Trust-based group collaboration
+- Peer matching system
+- Live testing and competitive learning
+- Context-based discussions instead of random chats
+
+---
+
+# 🧠 Core Features
+
+---
+
+## 🔐 Authentication & Profile
+
+- Simple login/signup system
+- User profile includes:
+  - Name
+  - College
+  - Course
+  - Branch
+  - Subjects of interest
+
+---
+
+## 📊 Dashboard
+
+- Sidebar navigation:
+  - My Notes
+  - Groups
+  - Partner Match
+  - Take Test
+  - Battle of Groups
+  - Profile
+
+- Displays:
+  - Recent activity
+  - Active groups
+  - Notifications (🔴 red dot system)
+
+---
+
+## 📒 My Notes
+
+- Upload notes (title, subject, content)
+- Notes displayed as card layout
+- Hover feature:
+  - Shows summary preview
+
+---
+
+## 🧠 Confusion Tagging System (Key Feature)
+
+Users can:
+- Select specific text inside notes
+- Tag as:
+  - ❓ Confusing
+  - ⚠️ Important
+  - 💡 Insight
+
+### Functionality:
+- Each tag creates a discussion thread
+- Focused conversations on specific content
+- Color-coded highlights
+- Option to mark confusion as resolved
+
+👉 This ensures **structured and meaningful collaboration**
+
+---
+
+## 👥 Groups (Trust-Based System)
+
+- Users cannot randomly join groups
+- Join only via:
+  - Invite from existing member
+  - Creating a new group
+
+### Inside Groups:
+- 💬 Chat system
+- 📄 Shared notes
+- 📌 Task assignment:
+  - Assign topics
+  - Track completion status
+
+---
+
+## 💬 Chat System (Global)
+
+Supports:
+- One-to-one chat
+- Group chat
+- Tag-based discussions
+- Test discussions
+
+Features:
+- Messages with timestamps
+- Structured conversations
+
+---
+
+## 🤝 Partner Match System
+
+- Find study partners based on:
+  - Subject
+  - Availability
+
+### Flow:
+1. Send request
+2. Discussion phase
+3. Accept → Become study partners
+
+### After Matching:
+- Chat
+- Create private groups
+- Take tests together
+
+---
+
+## 🧪 Take Test (Live Peer Testing)
+
+- Two users participate
+- Both can input questions (MCQ/text)
+
+### Features:
+- Timer-based test interface
+- Answer submission
+- Result comparison
+
+### After Test:
+- Discussion session to analyze answers
+
+---
+
+## ⚔️ Battle of Groups (Competitive Learning)
+
+- Topic-based group competition
+
+### Flow:
+1. Select topic
+2. Groups join
+3. Take MCQ-based test
+4. View leaderboard
+
+### Features:
+- ⭐ Star rating system
+- 🏆 Leaderboard
+- 📈 Level system:
+  - Beginner
+  - Intermediate
+  - Advanced
+
+---
+
+## 🧠 Post-Battle Discussion
+
+After each battle:
+- Dedicated discussion room is created
+
+### Sections:
+- 💬 General chat
+- ❓ Question-wise discussions
+- 💡 Insights section:
+  - Add learnings
+  - Upvote useful insights
+
+---
+
+## ❓ Doubt System
+
+- Users can post doubts in profile
+
+### Notification System:
+- Only notifies:
+  - Friends
+  - Same branch
+  - Same subject interest
+
+### UI:
+- 🔴 Red dot notification
+
+### Interaction:
+- Friends can:
+  - View doubt
+  - Start discussion
+
+---
+
+## 👤 Profile Page
+
+Displays:
+- Personal information
+- Friends / study partners
+
+### Progress Tracking:
+- Notes uploaded
+- Tests taken
+- Tasks completed
+- Group participation
+
+---
+
+# 🎨 UI/UX Design
+
+- Clean, modern interface
+- Light & Dark mode
+- Card-based layout
+- Smooth hover effects
+- Mobile-friendly design
+
+---
+
+# ⚙️ Tech Stack
+
+Frontend:
+- React
+- Tailwind CSS
+
+Backend:
+- Node.js
+- Express.js
+
+Database:
+- MongoDB (or in-memory for prototype)
+
+Real-time:
+- Socket.io
+
+---
+
+# 🗂️ Project Structure
