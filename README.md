@@ -8,6 +8,8 @@ Unlike traditional platforms, Study Buddy focuses on **human interaction instead
 🌐 live demo
 deployed link -https://studdy-buddy-beryl.vercel.app/auth
 
+🎥 Demo video link -https://drive.google.com/file/d/1O7BK0mWJNLeBJN28E5aSgvliXX4Kb_eq/view?usp=drivesdk
+
 # 🚀 Problem Statement
 
 Students often:
