@@ -294,7 +294,7 @@ This project is built collaboratively by a team of 4 members:
 
 # 🏁 Conclusion
 
-Study Buddy transforms passive learning into an **interactive, collaborative, and engaging experience**, helping students learn more effectively through peer-driven systems.
+Study Buddy turns passive learning into an active, collaborative, and engaging process, enabling students to learn more effectively through peer-based interactions
 
 ---
 
