@@ -253,3 +253,47 @@ Real-time:
 ---
 
 # 🗂️ Project Structure
+
+---
+
+# 🚀 Deployment
+
+- Frontend → Vercel
+- Backend → Render
+- Database → MongoDB Atlas
+
+---
+
+# 👥 Team Contribution
+
+This project is built collaboratively by a team of 4 members:
+
+- Frontend Development
+- Backend Development
+- Database Management
+- Real-time Systems & Integration
+
+---
+
+# 🎯 Key Highlights
+
+✅ Interaction-first design  
+✅ No AI dependency  
+✅ Structured collaboration  
+✅ Real-time learning system  
+✅ Competitive + collaborative balance  
+
+---
+
+# 🏁 Conclusion
+
+Study Buddy transforms passive learning into an **interactive, collaborative, and engaging experience**, helping students learn more effectively through peer-driven systems.
+
+---
+
+# 📌 Built for Hackathon
+
+Developed within a limited time frame as a hackathon project focusing on:
+- Practical problem solving
+- User-centric design
+- Scalable architecture
