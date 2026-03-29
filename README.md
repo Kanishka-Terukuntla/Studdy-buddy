@@ -245,7 +245,7 @@ Backend:
 - Express.js
 
 Database:
-- MongoDB (or in-memory for prototype)
+- MongoDB (in-memory for prototype)
 
 Real-time:
 - Socket.io
